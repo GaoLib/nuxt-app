@@ -17,6 +17,15 @@ $ npm run start
 $ npm run generate
 ```
 
+## 项目结构
+### pages
+- 存放页面的文件夹
+- 可在 .nuxt/router.js 中查看生成的路由配置
+
+### 单层路由
+- 在pages里面创建页面，自动添加路由配置
+
+
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories
