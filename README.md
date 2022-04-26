@@ -25,6 +25,10 @@ $ npm run generate
 ### 单层路由
 - 在pages里面创建页面，自动添加路由配置
 
+### 嵌套路由
+- 在pages里面创建文件夹，里面添加二级路由文件
+- 在pages中创建和文件夹同名的vue文件，并在其中加入 <nuxt-child />
+
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
