@@ -1,6 +1,6 @@
 <template>
   <div>
-    Detail Index Page
+    {{ $route.params.id }}
   </div>
 </template>
 

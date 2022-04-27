@@ -29,6 +29,9 @@ $ npm run generate
 - 在pages里面创建文件夹，里面添加二级路由文件
 - 在pages中创建和文件夹同名的vue文件，并在其中加入 <nuxt-child />
 
+### 动态路由传参
+- 创建以 _【参数】 命名的文件，如 detail/_id.vue
+- 浏览器输入 detail/1, 即可查看到页面
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
