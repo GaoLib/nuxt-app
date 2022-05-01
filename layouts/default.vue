@@ -1,6 +1,10 @@
 <template>
   <div>
-    layout
+    <nav>
+      <nuxt-link to="/">Home</nuxt-link>
+      <nuxt-link to="/admin">Admin</nuxt-link>
+      <nuxt-link to="/detail">Detail</nuxt-link>
+    </nav>
     <Nuxt />
   </div>
 </template>
